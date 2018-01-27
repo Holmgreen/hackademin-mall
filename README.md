@@ -17,11 +17,12 @@ vagrant ssh
 Efter detta har du tillgång till Lunicores utvecklingsmiljö. Denna mapp är mountad `/vagrant` i den virtuella maskinen.
 
 För att använda jupyter i webläsaren på din lokala dator (guest) skriver du
-````sh
+```sh
 #!/bin/zsh
 jupyter notebook --ip=0.0.0.0
 ```
+
 Det är då möjligt att öppna din notebook i webbläsaren genom att skriva
-````sh
+```sh
 http://0.0.0.0:8888/tree
 ```
